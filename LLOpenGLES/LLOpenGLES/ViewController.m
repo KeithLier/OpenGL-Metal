@@ -25,7 +25,8 @@
     
     self.items = @[
         @{@"name":@"GLKit加载图片",@"vc":@"GLImageController"},
-        @{@"name":@"GLKit绘制正方体",@"vc":@"GLSquareController"}
+        @{@"name":@"GLKit绘制正方体",@"vc":@"GLCubeController"},
+        @{@"name":@"CoreAnimation绘制正方体",@"vc":@"CACubeController"}
     ];
     
     [self.tableView reloadData];
@@ -47,6 +48,7 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSDictionary *dict = self.items[indexPath.row];
     NSString *vc = dict[@"vc"];
     UIViewController *controller = [[NSClassFromString(vc) alloc] init];

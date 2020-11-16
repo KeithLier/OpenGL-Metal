@@ -5,7 +5,7 @@
 //  Created by keith on 2020/11/13.
 //
 
-#import "GLSquareController.h"
+#import "GLCubeController.h"
 #import <GLKit/GLKit.h>
 #import <OpenGLES/ES3/gl.h>
 #import <OpenGLES/ES3/glext.h>
@@ -17,7 +17,7 @@ typedef struct {
     GLKVector3 normal;//法线
 } YVertex;
 
-@interface GLSquareController ()
+@interface GLCubeController ()
 
 @property (nonatomic,strong) GLKView *glkView;
 @property (nonatomic,strong) GLKBaseEffect *effect;
@@ -28,7 +28,7 @@ typedef struct {
 
 @end
 
-@implementation GLSquareController
+@implementation GLCubeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

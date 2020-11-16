@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5303C677255E0AD70060B3FA /* GLImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303C676255E0AD70060B3FA /* GLImageController.m */; };
+		5303C67D255E0E290060B3FA /* GLSquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303C67C255E0E290060B3FA /* GLSquareController.m */; };
 		53D2D7AB255CB7ED004660CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7AA255CB7ED004660CB /* AppDelegate.m */; };
 		53D2D7AE255CB7ED004660CB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7AD255CB7ED004660CB /* SceneDelegate.m */; };
 		53D2D7B1255CB7ED004660CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7B0255CB7ED004660CB /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5303C675255E0AD70060B3FA /* GLImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLImageController.h; sourceTree = "<group>"; };
+		5303C676255E0AD70060B3FA /* GLImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLImageController.m; sourceTree = "<group>"; };
+		5303C67B255E0E290060B3FA /* GLSquareController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSquareController.h; sourceTree = "<group>"; };
+		5303C67C255E0E290060B3FA /* GLSquareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSquareController.m; sourceTree = "<group>"; };
 		53D2D7A6255CB7ED004660CB /* LLOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D2D7A9255CB7ED004660CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53D2D7AA255CB7ED004660CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +118,10 @@
 				53D2D7AD255CB7ED004660CB /* SceneDelegate.m */,
 				53D2D7AF255CB7ED004660CB /* ViewController.h */,
 				53D2D7B0255CB7ED004660CB /* ViewController.m */,
+				5303C675255E0AD70060B3FA /* GLImageController.h */,
+				5303C676255E0AD70060B3FA /* GLImageController.m */,
+				5303C67B255E0E290060B3FA /* GLSquareController.h */,
+				5303C67C255E0E290060B3FA /* GLSquareController.m */,
 				53D2D7B2255CB7ED004660CB /* Main.storyboard */,
 				53D2D7E4255CBC75004660CB /* 1.png */,
 				53D2D7B5255CB7EE004660CB /* Assets.xcassets */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5303C677255E0AD70060B3FA /* GLImageController.m in Sources */,
+				5303C67D255E0E290060B3FA /* GLSquareController.m in Sources */,
 				53D2D7B1255CB7ED004660CB /* ViewController.m in Sources */,
 				53D2D7AB255CB7ED004660CB /* AppDelegate.m in Sources */,
 				53D2D7BC255CB7EE004660CB /* main.m in Sources */,

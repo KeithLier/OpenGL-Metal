@@ -26,7 +26,8 @@
     self.items = @[
         @{@"name":@"GLKit加载图片",@"vc":@"GLImageController"},
         @{@"name":@"GLKit绘制正方体",@"vc":@"GLCubeController"},
-        @{@"name":@"CoreAnimation绘制正方体",@"vc":@"CACubeController"}
+        @{@"name":@"CoreAnimation绘制正方体",@"vc":@"CACubeController"},
+        @{@"name":@"GLSL加载图片",@"vc":@"GLSLImageController"}
     ];
     
     [self.tableView reloadData];

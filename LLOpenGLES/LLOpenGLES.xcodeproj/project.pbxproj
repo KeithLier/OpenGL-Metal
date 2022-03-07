@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		5303C677255E0AD70060B3FA /* GLImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303C676255E0AD70060B3FA /* GLImageController.m */; };
 		5303C67D255E0E290060B3FA /* GLCubeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303C67C255E0E290060B3FA /* GLCubeController.m */; };
+		53571F1725649CD200F8B903 /* GLSL3DController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53571F1625649CD200F8B903 /* GLSL3DController.m */; };
+		53571F1F25649D6A00F8B903 /* GLSL3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53571F1E25649D6A00F8B903 /* GLSL3DView.m */; };
+		53571F2725649DD100F8B903 /* glsl3d.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 53571F2625649DD100F8B903 /* glsl3d.vsh */; };
+		53571F2C25649DF000F8B903 /* glsl3d.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 53571F2B25649DEF00F8B903 /* glsl3d.fsh */; };
+		53571F322564A09F00F8B903 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53571F312564A09F00F8B903 /* OpenGLES.framework */; };
 		538C58B92561FC600009011A /* CACubeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C58B82561FC600009011A /* CACubeController.m */; };
 		538C58C225634CD70009011A /* GLSLImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C58C125634CD70009011A /* GLSLImageController.m */; };
 		538C58C825634D790009011A /* GLSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C58C725634D790009011A /* GLSLView.m */; };
 		538C58CD25634DDC0009011A /* glslImage.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 538C58CC25634DDC0009011A /* glslImage.vsh */; };
 		538C58D225634E270009011A /* glslImage.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 538C58D125634E270009011A /* glslImage.fsh */; };
+		53D0C0CB2565EC8D002BBAD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D0C0CA2565EC8D002BBAD5 /* QuartzCore.framework */; };
+		53D0C0D12565EF8E002BBAD5 /* GLKit3DController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0C0D02565EF8E002BBAD5 /* GLKit3DController.m */; };
 		53D2D7AB255CB7ED004660CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7AA255CB7ED004660CB /* AppDelegate.m */; };
 		53D2D7AE255CB7ED004660CB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7AD255CB7ED004660CB /* SceneDelegate.m */; };
 		53D2D7B1255CB7ED004660CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D2D7B0255CB7ED004660CB /* ViewController.m */; };
@@ -48,6 +55,13 @@
 		5303C676255E0AD70060B3FA /* GLImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLImageController.m; sourceTree = "<group>"; };
 		5303C67B255E0E290060B3FA /* GLCubeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCubeController.h; sourceTree = "<group>"; };
 		5303C67C255E0E290060B3FA /* GLCubeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCubeController.m; sourceTree = "<group>"; };
+		53571F1525649CD200F8B903 /* GLSL3DController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSL3DController.h; sourceTree = "<group>"; };
+		53571F1625649CD200F8B903 /* GLSL3DController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSL3DController.m; sourceTree = "<group>"; };
+		53571F1D25649D6A00F8B903 /* GLSL3DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSL3DView.h; sourceTree = "<group>"; };
+		53571F1E25649D6A00F8B903 /* GLSL3DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSL3DView.m; sourceTree = "<group>"; };
+		53571F2625649DD100F8B903 /* glsl3d.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = glsl3d.vsh; sourceTree = "<group>"; };
+		53571F2B25649DEF00F8B903 /* glsl3d.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = glsl3d.fsh; sourceTree = "<group>"; };
+		53571F312564A09F00F8B903 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		538C58B72561FC600009011A /* CACubeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CACubeController.h; sourceTree = "<group>"; };
 		538C58B82561FC600009011A /* CACubeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CACubeController.m; sourceTree = "<group>"; };
 		538C58C025634CD70009011A /* GLSLImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSLImageController.h; sourceTree = "<group>"; };
@@ -56,6 +70,9 @@
 		538C58C725634D790009011A /* GLSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSLView.m; sourceTree = "<group>"; };
 		538C58CC25634DDC0009011A /* glslImage.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = glslImage.vsh; sourceTree = "<group>"; };
 		538C58D125634E270009011A /* glslImage.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = glslImage.fsh; sourceTree = "<group>"; };
+		53D0C0CA2565EC8D002BBAD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		53D0C0CF2565EF8E002BBAD5 /* GLKit3DController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLKit3DController.h; sourceTree = "<group>"; };
+		53D0C0D02565EF8E002BBAD5 /* GLKit3DController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLKit3DController.m; sourceTree = "<group>"; };
 		53D2D7A6255CB7ED004660CB /* LLOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D2D7A9255CB7ED004660CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53D2D7AA255CB7ED004660CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D0C0CB2565EC8D002BBAD5 /* QuartzCore.framework in Frameworks */,
+				53571F322564A09F00F8B903 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +121,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53571F1B25649D0900F8B903 /* GLSLImage */ = {
+			isa = PBXGroup;
+			children = (
+				538C58C025634CD70009011A /* GLSLImageController.h */,
+				538C58C125634CD70009011A /* GLSLImageController.m */,
+				538C58C625634D790009011A /* GLSLView.h */,
+				538C58C725634D790009011A /* GLSLView.m */,
+				538C58CC25634DDC0009011A /* glslImage.vsh */,
+				538C58D125634E270009011A /* glslImage.fsh */,
+			);
+			path = GLSLImage;
+			sourceTree = "<group>";
+		};
+		53571F1C25649D4100F8B903 /* GLSL3D */ = {
+			isa = PBXGroup;
+			children = (
+				53571F1525649CD200F8B903 /* GLSL3DController.h */,
+				53571F1625649CD200F8B903 /* GLSL3DController.m */,
+				53571F1D25649D6A00F8B903 /* GLSL3DView.h */,
+				53571F1E25649D6A00F8B903 /* GLSL3DView.m */,
+				53571F2625649DD100F8B903 /* glsl3d.vsh */,
+				53571F2B25649DEF00F8B903 /* glsl3d.fsh */,
+			);
+			path = GLSL3D;
+			sourceTree = "<group>";
+		};
+		53571F302564A09E00F8B903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D0C0CA2565EC8D002BBAD5 /* QuartzCore.framework */,
+				53571F312564A09F00F8B903 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53D2D79D255CB7ED004660CB = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +163,7 @@
 				53D2D7C4255CB7EE004660CB /* LLOpenGLESTests */,
 				53D2D7CF255CB7EE004660CB /* LLOpenGLESUITests */,
 				53D2D7A7255CB7ED004660CB /* Products */,
+				53571F302564A09E00F8B903 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,12 +192,10 @@
 				5303C67C255E0E290060B3FA /* GLCubeController.m */,
 				538C58B72561FC600009011A /* CACubeController.h */,
 				538C58B82561FC600009011A /* CACubeController.m */,
-				538C58C025634CD70009011A /* GLSLImageController.h */,
-				538C58C125634CD70009011A /* GLSLImageController.m */,
-				538C58C625634D790009011A /* GLSLView.h */,
-				538C58C725634D790009011A /* GLSLView.m */,
-				538C58CC25634DDC0009011A /* glslImage.vsh */,
-				538C58D125634E270009011A /* glslImage.fsh */,
+				53D0C0CF2565EF8E002BBAD5 /* GLKit3DController.h */,
+				53D0C0D02565EF8E002BBAD5 /* GLKit3DController.m */,
+				53571F1B25649D0900F8B903 /* GLSLImage */,
+				53571F1C25649D4100F8B903 /* GLSL3D */,
 				53D2D7B2255CB7ED004660CB /* Main.storyboard */,
 				53D2D7E4255CBC75004660CB /* 1.png */,
 				53D2D7B5255CB7EE004660CB /* Assets.xcassets */,
@@ -275,7 +328,9 @@
 			files = (
 				53D2D7B9255CB7EE004660CB /* LaunchScreen.storyboard in Resources */,
 				53D2D7B6255CB7EE004660CB /* Assets.xcassets in Resources */,
+				53571F2C25649DF000F8B903 /* glsl3d.fsh in Resources */,
 				538C58CD25634DDC0009011A /* glslImage.vsh in Resources */,
+				53571F2725649DD100F8B903 /* glsl3d.vsh in Resources */,
 				53D2D7B4255CB7ED004660CB /* Main.storyboard in Resources */,
 				53D2D7E5255CBC75004660CB /* 1.png in Resources */,
 				538C58D225634E270009011A /* glslImage.fsh in Resources */,
@@ -307,10 +362,13 @@
 				5303C677255E0AD70060B3FA /* GLImageController.m in Sources */,
 				538C58C225634CD70009011A /* GLSLImageController.m in Sources */,
 				5303C67D255E0E290060B3FA /* GLCubeController.m in Sources */,
+				53D0C0D12565EF8E002BBAD5 /* GLKit3DController.m in Sources */,
 				53D2D7B1255CB7ED004660CB /* ViewController.m in Sources */,
 				53D2D7AB255CB7ED004660CB /* AppDelegate.m in Sources */,
+				53571F1725649CD200F8B903 /* GLSL3DController.m in Sources */,
 				538C58B92561FC600009011A /* CACubeController.m in Sources */,
 				53D2D7BC255CB7EE004660CB /* main.m in Sources */,
+				53571F1F25649D6A00F8B903 /* GLSL3DView.m in Sources */,
 				53D2D7AE255CB7ED004660CB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

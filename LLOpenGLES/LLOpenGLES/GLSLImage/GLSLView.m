@@ -362,6 +362,14 @@
     //2）使用默认方式绘制
     CGContextDrawImage(spriContext, rect, spriImage);
     
+    //4、
+    //=====================翻转代码=====================
+    CGContextTranslateCTM(spriContext, rect.origin.x, rect.origin.y);
+    CGContextTranslateCTM(spriContext, 0, rect.size.height);
+    CGContextScaleCTM(spriContext, 1.0, -1.0);
+    CGContextTranslateCTM(spriContext, -rect.origin.x, -rect.origin.y);
+    CGContextDrawImage(spriContext, rect, spriImage);
+    //=====================翻转代码=====================
     
     
     //5、画图完毕就释放上下文
